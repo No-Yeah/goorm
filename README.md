@@ -1,6 +1,6 @@
 # goorm
 
-[지송함미다. 개발은 쥐약이애오]
+[pardon my dogfoot]
 
 - 실행 방법
   1. docker pull ghcr.io/no-yeah/groom/groom_noyeah_spring:0.1 // 퍼블릭 이미지 다운로드
