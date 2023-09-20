@@ -1,0 +1,15 @@
+version: '3.9'
+
+services:
+  registry:
+    image: ghcr.io/no-yeah/groom/groom_noyeah_spring:0.1
+    container_name: spring_noyeah
+    restart: unless-stopped
+    tty: true
+    ports:
+      - "8080:8080"
+    volumes:
+      - spring_root:/tmp
+
+volumes:
+  spring_root:
