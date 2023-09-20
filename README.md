@@ -121,3 +121,13 @@ doc@docker-M# uname -a
 Linux docker-M 5.15.0-25-generic #25-Ubuntu SMP Wed Mar 30 15:54:22 UTC 2022 x86_64 x86_64 x86_64 GNU/Linux
 
 
+// 실행 화면
+
+
+![image](https://github.com/No-Yeah/goorm/assets/36402738/b0e64c17-b2b1-4d4a-96c3-3013efc83dac)
+
+
+![image](https://github.com/No-Yeah/goorm/assets/36402738/12431360-ab54-4cea-9120-cbeb6aa39fbf)
+
+
+
