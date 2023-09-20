@@ -5,9 +5,17 @@
 - 실행 방법
   1. docker pull ghcr.io/no-yeah/groom/groom_noyeah_spring:0.1 // 퍼블릭 이미지 다운로드
   2. docker-compose.yaml 예시 파일 다운로드 후 수정
-     // default로 volume을 /tmp에 마운트되게 해놓았습니다. 변경이 필요하다면 수정해서 사용하세요.
-  4. compose 얌 파일 실행  // docker 버전에 따라서 내부 Version: '3.9'는 커스텀하여 사용하세요.
-  docker-compose -f /파일절대경로/spring_noyeah.yaml up -d
+ 
+  
+     // default로 volume을 '/tmp'에 마운트되게 해놓았습니다. 변경이 필요하다면 수정해서 사용하세요.
+ 
+     
+     // 8080 컨테이너 포트와 서버 포트를 동일하게 포워딩해놓았습니다. 변경이 필요하다면 수정해서 사용하세요.
+  3. compose 얌 파일 실행
+    
+     // docker 버전에 따라서 내부 Version: '3.9'는 커스텀하여 사용하세요.
+
+     docker-compose -f /파일절대경로/spring_noyeah.yaml up -d
 
 - 실행 화면
   1. IP:8080 브라우저 접근
